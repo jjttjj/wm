@@ -1,0 +1,13 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure       {:mvn/version "1.10.1"}
+        org.clojure/clojurescript {:mvn/version "1.10.758"}
+        com.gfredericks/exact     {:mvn/version "0.1.11"}
+        precise                   {:mvn/version "0.1.0"}
+        }
+ :aliases
+ {:demo {:extra-paths ["dev"]
+         :main-opts   ["--main" "cljs.main"
+                       "--watch" "dev"
+                       "--compile" "demo"
+                       "--repl"
+                       ]}}}
