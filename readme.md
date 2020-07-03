@@ -9,7 +9,7 @@
 [Live Demo](https://jt.dev/demos/wm)
 
 Demo code is [here](dev/demo.cljs). 
-To run the demo localy, clone this repo, enter it and run:
+To run the demo locally, clone this repo, enter it and run:
 ```
 clj -A:demo
 ```
