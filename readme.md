@@ -1,6 +1,6 @@
 # wm
 
-`wm` is a clojure(script) library which provides a datastructure that's useful for implementing a tiling window manager. 
+`wm` is a clojure(script) library which provides an immutable datastructure that's useful for implementing a tiling window manager. 
 
 ![](wm.png)
 
@@ -37,3 +37,10 @@ To run the demo, clone this repo and enter it and run
 ```
 clj -A:demo
 ```
+
+
+## License
+
+Copyright © 2020 Justin Tirrell
+
+Released under the MIT license.
