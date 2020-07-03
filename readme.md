@@ -4,6 +4,16 @@
 
 ![](wm.png)
 
+## Demo
+
+[Live Demo](https://jt.dev/demos/wm)
+
+Demo code is [here](dev/demo.cljs). 
+To run the demo localy, clone this repo, enter it and run:
+```
+clj -A:demo
+```
+
 ## Usage
 
 Add the following to your `:deps` map in your deps.edn:
@@ -29,15 +39,6 @@ You can split the current location with `split-down` or `split-right`. Navigatio
     wm/move-up)
 
 ```
-
-## Demo
-
-Demo code is [here](dev/demo.cljs). 
-To run the demo, clone this repo and enter it and run 
-```
-clj -A:demo
-```
-
 
 ## License
 
