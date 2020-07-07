@@ -1,4 +1,4 @@
-(ns demo
+(ns dev.jt.wm.demo
   (:require [dev.jt.wm :as wm]
             [goog.dom :as d]
             [goog.events :as gev]

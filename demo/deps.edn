@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps {dev.jt/wm {:local/root ".."}}
+ :aliases
+ {:demo {:main-opts   ["--main" "cljs.main"
+                       "--watch" "src"
+                       "--compile" "dev.jt.wm.demo"
+                       "--repl"
+                       ]}}}
