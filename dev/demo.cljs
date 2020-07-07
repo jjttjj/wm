@@ -90,7 +90,7 @@
                    "flex-direction:column;" "justify-content:center;"
                    "align-items:center;")}
       (div {:style "margin-bottom:10px;"} "count:" (str counter))
-      (div {:style "display:flex"}
+      (div {:style "display:flex;z-index:1000"}
         (div (merge
                {:style
                 (str "border:1px solid black;" "cursor:pointer;"
